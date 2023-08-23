@@ -8,7 +8,7 @@ class Solution(object):
       if diff in prevMap:
         return [prevMap[diff], i]
       
-      prevMap[n] = i;
+      prevMap[n] = i
     return
     
 # Time Complexity: O(n)
