@@ -37,7 +37,15 @@
 ----------------------------------------------------------
 
 #### Brute Force: 
-Compares one index after another, which can affect time-complexity but cost the least amount of memory. It works by comparing the [0] to [1],[2],[3], etc. Then comparing [1] to [2],[3] etc.
+Compares one index after another, which can affect time-complexity but cost the least amount of memory. 
+
+''''
+It works by comparing the [0] to [1],[2],[3], etc. 
+
+Then comparing [1] to [2],[3] etc.
+
+After comparing all values, it returns [1], [3]
+''''
 
 ##### Time Complexity: O(N^2), Memory Space: O(1)
 
