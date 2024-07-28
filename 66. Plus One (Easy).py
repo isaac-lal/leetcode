@@ -15,3 +15,4 @@ class Solution(object):
                 return digits
         # If all digits are 9, prepend 1 to the list
         return [1] + digits
+
